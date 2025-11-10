@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "sets": {
+        "./2025-minithon": {
+            "title": "2025 Minithon",
+            "description": "Added as celebration for hitting the coding subgoal during the 2025 Minithon",
+            "images": [
+                {
+                    "filePath": "crizzel-minyan.png",
+                    "attributions": "Crizzel (Minyan)"
+                }
+            ]
+        }
+    }
+}
