@@ -1,13 +1,48 @@
 {
     "version": 1,
     "sets": {
+        "./neuropilot-assets": {
+            "title": "NeuroPilot Assets",
+            "description": "NeuroPilot's own images, icons, etc...",
+            "images": [
+                {
+                    "name": "v1 heart",
+                    "filePath": "heart.png",
+                    "attributions": "Pasu4"
+                },
+                {
+                    "name": "NeuroPilot",
+                    "filePath": "neuropilot.png",
+                    "attributions": "Pasu4"
+                },
+                {
+                    "name": "EvilPilot",
+                    "filePath": "neuropilot.png",
+                    "attributions": "Pasu4"
+                },
+                {
+                    "name": "NeuroConsole",
+                    "filePath": "console.png",
+                    "attributions": "Pasu4"
+                },
+                {
+                    "name": "v2 heart",
+                    "filePath": "heart-xaendril.png",
+                    "attributions": "Xaendril"
+                }
+            ]
+        },
         "./2025-minithon": {
             "title": "2025 Minithon",
             "description": "Added as celebration for hitting the coding subgoal during the 2025 Minithon",
             "images": [
                 {
                     "filePath": "crizzel-minyan.png",
-                    "attributions": "Crizzel (Minyan)"
+                    "attributions": "@crizzelkix (Discord)"
+                },
+                {
+                    "filePath": "jinyan.png",
+                    "attributions": "@artofraffy (Twitter)"
                 }
             ]
         }
