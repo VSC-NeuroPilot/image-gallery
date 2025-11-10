@@ -1,7 +1,7 @@
 {
     "version": 1,
     "sets": {
-        "./neuropilot-assets": {
+        "neuropilot-assets": {
             "title": "NeuroPilot Assets",
             "rotation": false,
             "description": "NeuroPilot's own images, icons, etc...",
@@ -33,7 +33,7 @@
                 }
             ]
         },
-        "./2025-minithon": {
+        "2025-minithon": {
             "title": "2025 Minithon",
             "rotation": true,
             "description": "Added as celebration for hitting the coding subgoal during the 2025 Minithon",
