@@ -1,4 +1,5 @@
 {
+	"$schema": "./sets.schema.json",
     "version": 1,
     "sets": {
         "neuropilot-assets": {

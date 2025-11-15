@@ -1,7 +1,53 @@
 {
     "$schema": "https://json-schema.org/draft-07/schema#",
     "type": "object",
-    "patternProperties": {
-
-    }
+    "properties": {
+        "version": {
+            "type": "integer",
+            "description": "The version of the config."
+        },
+        "sets": {
+            "type": "object",
+            "description": "Data for each image set",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "title": {
+                        "type": "string",
+                        "description": "The name of the set."
+                    },
+                    "rotation": {
+                        "type": "boolean",
+                        "description": "Whether or not this is a celebration set. Can also be referred to as \"seasonal\" or \"rotational\" sets. (the latter being used for ones that are rotated in and out)"
+                    },
+                    "description": {
+                        "type": "string",
+                        "description": "A short description of the set. This should be displayed at some point."
+                    },
+                    "images": {
+                        "type": "array",
+                        "description": "An object array containing all included images and their associated metadata.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "description": "Asset name"
+                                },
+                                "filePath": {
+                                    "type": "string",
+                                    "description": "The file name. Should be relative to its parent set's folder. Do not start with a ./"
+                                },
+                                "attributions": {
+                                    "type": "string",
+                                    "description": "A string containing attributions to put when the image is shown."
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "required": ["version", "sets"]
 }
