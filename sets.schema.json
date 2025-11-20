@@ -41,8 +41,14 @@
                                 "attributions": {
                                     "type": "string",
                                     "description": "A string containing attributions to put when the image is shown."
+                                },
+                                "license": {
+                                    "type": "string",
+                                    "description": "How this image is licensed (i.e. how it may be used). This is a sub-license granted to others by VSC-NeuroPilot, images may be licensed to VSC-NeuroPilot on separate terms.",
+                                    "examples": ["MIT", "CC0", "CC BY-SA 4.0", "All rights reserved"]
                                 }
-                            }
+                            },
+                            "required": ["filePath", "license"]
                         }
                     }
                 }

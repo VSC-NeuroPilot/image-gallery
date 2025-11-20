@@ -10,27 +10,32 @@
                 {
                     "name": "v1 heart",
                     "filePath": "heart.png",
-                    "attributions": "Pasu4"
+                    "attributions": "Pasu4",
+                    "license": "MIT"
                 },
                 {
                     "name": "NeuroPilot",
                     "filePath": "neuropilot.png",
-                    "attributions": "Pasu4"
+                    "attributions": "Pasu4",
+                    "license": "MIT"
                 },
                 {
                     "name": "EvilPilot",
                     "filePath": "evilpilot.png",
-                    "attributions": "Pasu4"
+                    "attributions": "Pasu4",
+                    "license": "MIT"
                 },
                 {
                     "name": "NeuroConsole",
                     "filePath": "console.png",
-                    "attributions": "Pasu4"
+                    "attributions": "Pasu4",
+                    "license": "MIT"
                 },
                 {
                     "name": "v2 heart",
                     "filePath": "heart-xaendril.png",
-                    "attributions": "Xaendril"
+                    "attributions": "Xaendril",
+                    "license": "All rights reserved"
                 }
             ]
         },
@@ -42,12 +47,14 @@
                 {
                     "name": "Minyan Moderator Crizzel",
                     "filePath": "crizzel-minyan.png",
-                    "attributions": "@crizzelkix (Discord)"
+                    "attributions": "@crizzelkix (Discord)",
+                    "license": "All rights reserved"
                 },
                 {
                     "name": "KlutzyDraconequus",
                     "filePath": "jinyan.png",
-                    "attributions": "@artofraffy (Twitter)"
+                    "attributions": "@artofraffy (Twitter)",
+                    "license": "All rights reserved"
                 }
             ]
         }
