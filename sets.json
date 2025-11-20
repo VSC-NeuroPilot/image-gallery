@@ -4,6 +4,7 @@
     "sets": {
         "neuropilot-assets": {
             "title": "NeuroPilot Assets",
+            "enabled": true,
             "rotation": false,
             "description": "NeuroPilot's own images, icons, etc...",
             "images": [
@@ -11,36 +12,57 @@
                     "name": "v1 heart",
                     "filePath": "heart.png",
                     "attributions": "Pasu4",
-                    "license": "MIT"
+                    "info": {
+                        "licensing": {
+                            "personal": "MIT"
+                        }
+                    }
                 },
                 {
                     "name": "NeuroPilot",
                     "filePath": "neuropilot.png",
                     "attributions": "Pasu4",
-                    "license": "MIT"
+                    "info": {
+                        "licensing": {
+                            "personal": "MIT"
+                        }
+                    }
                 },
                 {
                     "name": "EvilPilot",
                     "filePath": "evilpilot.png",
                     "attributions": "Pasu4",
-                    "license": "MIT"
+                    "info": {
+                        "licensing": {
+                            "personal": "MIT"
+                        }
+                    }
                 },
                 {
                     "name": "NeuroConsole",
                     "filePath": "console.png",
                     "attributions": "Pasu4",
-                    "license": "MIT"
+                    "info": {
+                        "licensing": {
+                            "personal": "MIT"
+                        }
+                    }
                 },
                 {
                     "name": "v2 heart",
                     "filePath": "heart-xaendril.png",
                     "attributions": "Xaendril",
-                    "license": "All rights reserved"
+                    "info": {
+                        "licensing": {
+                            "personal": "All rights reserved"
+                        }
+                    }
                 }
             ]
         },
         "2025-minithon": {
             "title": "2025 Minithon",
+            "enabled": true,
             "rotation": true,
             "description": "Added as celebration for hitting the coding subgoal during the 2025 Minithon",
             "images": [
@@ -48,13 +70,23 @@
                     "name": "Minyan Moderator Crizzel",
                     "filePath": "crizzel-minyan.png",
                     "attributions": "@crizzelkix (Discord)",
-                    "license": "All rights reserved"
+                   "info": {
+                        "licensing": {
+                            "personal": "All rights reserved"
+                        },
+                        "usage": "Please contact the artist for usage questions outside of NeuroPilot."
+                    }
                 },
                 {
                     "name": "KlutzyDraconequus",
                     "filePath": "jinyan.png",
                     "attributions": "@artofraffy (Twitter)",
-                    "license": "All rights reserved"
+                    "info": {
+                        "licensing": {
+                            "personal": "All rights reserved"
+                        },
+                        "usage": "Please contact the artist for usage questions outside of NeuroPilot."
+                    }
                 }
             ]
         }

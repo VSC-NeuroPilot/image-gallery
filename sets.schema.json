@@ -16,6 +16,10 @@
                         "type": "string",
                         "description": "The name of the set."
                     },
+                    "enabled": {
+                        "type": "boolean",
+                        "description": "Whether this set is enabled. (Currently not in use, will be added later.)"
+                    },
                     "rotation": {
                         "type": "boolean",
                         "description": "Whether or not this is a celebration set. Can also be referred to as \"seasonal\" or \"rotational\" sets. (the latter being used for ones that are rotated in and out)"
@@ -42,16 +46,41 @@
                                     "type": "string",
                                     "description": "A string containing attributions to put when the image is shown."
                                 },
-                                "license": {
-                                    "type": "string",
-                                    "description": "How this image is licensed (i.e. how it may be used). This is a sub-license granted to others by VSC-NeuroPilot, images may be licensed to VSC-NeuroPilot on separate terms.",
-                                    "examples": ["MIT", "CC0", "CC BY-SA 4.0", "All rights reserved"]
+                                "info": {
+                                    "type": "object",
+                                    "description": "Information regarding this asset. May or may not be shown in the extension.",
+                                    "properties": {
+                                        "licensing": {
+                                            "type": "object",
+                                            "properties": {
+                                                "neuropilot": {
+                                                    "type": "string",
+                                                    "description": "The license/permission granted to VSC-NeuroPilot. These may be different to sub-license granted to others by the artist.",
+                                                    "examples": ["MIT", "CC0", "CC BY-SA 4.0", "All rights reserved"]
+                                                },
+                                                "personal": {
+                                                    "type": "string",
+                                                    "description": "The sublicense granted for personal usage. If omitted, usage information MUST be provided below.",
+                                                    "examples": ["MIT", "CC0", "CC BY-SA 4.0", "All rights reserved"]
+                                                }
+                                            },
+                                            "required": ["personal"],
+                                            "description": "How this image is licensed (i.e. how it may be used). This is a sub-license granted to others by VSC-NeuroPilot, images may be licensed to VSC-NeuroPilot on separate terms."
+                                        },
+                                        "usage": {
+                                            "type": "string",
+                                            "description": "Information on usage for other purposes."
+                                        }
+                                    }
                                 }
                             },
-                            "required": ["filePath", "license"]
-                        }
+                            "additionalProperties": false,
+                            "required": ["name", "filePath", "attributions"]
+                        },
+                        "uniqueItems": true
                     }
-                }
+                },
+                "required": ["title", "enabled", "rotation", "images"]
             }
         }
     },
