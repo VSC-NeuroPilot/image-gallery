@@ -54,7 +54,8 @@
                     "attributions": "Xaendril",
                     "info": {
                         "licensing": {
-                            "personal": "All rights reserved"
+                            "neuropilot": "All rights reserved",
+                            "personal": "None"
                         }
                     }
                 }
@@ -72,7 +73,8 @@
                     "attributions": "@crizzelkix (Discord)",
                    "info": {
                         "licensing": {
-                            "personal": "All rights reserved"
+                            "neuropilot": "All rights reserved",
+                            "personal": "None"
                         },
                         "usage": "Please contact the artist for usage questions outside of NeuroPilot."
                     }
@@ -83,7 +85,8 @@
                     "attributions": "@artofraffy (Twitter)",
                     "info": {
                         "licensing": {
-                            "personal": "All rights reserved"
+                            "neuropilot": "All rights reserved",
+                            "personal": "None"
                         },
                         "usage": "Please contact the artist for usage questions outside of NeuroPilot."
                     }
