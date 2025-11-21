@@ -58,6 +58,16 @@
                             "personal": "All rights reserved"
                         }
                     }
+                },
+                {
+                    "name": "NeuroPilot Git",
+                    "filePath": "neuropilot-git-icon.png",
+                    "attributions": "Pasu4",
+                    "info": {
+                        "licensing": {
+                            "personal": "MIT"
+                        }
+                    }
                 }
             ]
         },

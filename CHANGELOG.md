@@ -2,6 +2,10 @@
 
 Dates are in AEST (Australian Eastern Standard Time)
 
+## 2025-11-21
+
+- Add "NeuroPilot Git"
+
 ## 2025-11-20
 
 - Add license information for assets
