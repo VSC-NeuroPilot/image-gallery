@@ -68,7 +68,17 @@
                             "personal": "MIT"
                         }
                     }
-                }
+                },
+				{
+					"name": "neurontainer",
+					"filePath": "neurontainer.svg",
+					"attributions": "Pasu4",
+					"info": {
+						"licensing": {
+							"personal": "MIT"
+						}
+					}
+				}
             ]
         },
         "2025-minithon": {
